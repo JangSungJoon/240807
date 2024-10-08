@@ -7,6 +7,6 @@ public:
 	APlayer();
 	~APlayer();
 
-	void PlayerMove();
+	virtual void Move() override;
 };
 

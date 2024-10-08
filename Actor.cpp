@@ -11,7 +11,7 @@ AActor::~AActor()
 {
 }
 
-void AActor::Move(int RandVal)
+void AActor::Move()
 {
 	cout << "이동하다" << endl;
 }

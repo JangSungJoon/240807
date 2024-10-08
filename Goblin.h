@@ -7,6 +7,5 @@ public:
 	AGoblin();
 	~AGoblin();
 
-	void GoblinMove(int RandVal);
+	virtual void Move() override;
 };
-

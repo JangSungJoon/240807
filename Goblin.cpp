@@ -11,10 +11,7 @@ AGoblin::~AGoblin()
 {
 }
 
-void AGoblin::GoblinMove(int RandVal)
+void AGoblin::Move()
 {
-	for (int i = 0; i < RandVal; i++)
-	{
-		cout << "고블린 이동하다" << endl;
-	}
+	cout << "고블린 이동하다" << endl;
 }

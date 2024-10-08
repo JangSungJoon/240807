@@ -5,6 +5,6 @@ public:
 	AActor();
 	~AActor();
 
-	void Move(int RandVal);
+	virtual void Move();
 };
 
